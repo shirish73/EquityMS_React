@@ -1,6 +1,7 @@
 import React, { useState, useEffect, useCallback } from 'react';
 import { Plus, TrendingUp, TrendingDown, Activity, Database, RefreshCw, AlertCircle } from 'lucide-react';
 
+
 const App = () => {
   const [transactions, setTransactions] = useState([]);
   const [positions, setPositions] = useState([]);
